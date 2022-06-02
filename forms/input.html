@@ -12,6 +12,7 @@
     
     <button>Enviar</button>
 </form>
+<br>
 
 <form action="">
     <input type="email"
@@ -27,9 +28,111 @@
 
     <button>Enviar</button>
 </form>
+<br>
 
 <form action="">
-    <input type="url" >
+    <input type="url" 
+    placeholder=""
+    readonly
+    disabled
+    required
+    minlength=""
+    maxlength=""
+    pattern=""
+    title=""
+    list=""
+    spellcheck="">
 
     <button>Enviar</button>
 </form>
+<br>
+
+<form action="" method="post" enctype="multipart/form-data">
+    <input type="file"
+    accept=""
+    multiple>
+
+    <button>Enviar</button>
+</form>
+<br>
+
+<form action="">
+    <input type="color"
+    value=""
+    list="">
+
+    <button>Enviar</button>
+</form>
+<br>
+
+<form action="">
+
+    <fieldset>
+        <legend>Escolha seus interesses</legend>
+        <div>
+            <input type="checkbox" name="interest" id="coding"
+            value="coding"
+            >
+            <label for="coding">Coding</label>
+        </div>
+
+        <div>
+            <input type="checkbox" name="interest" id="music"
+            value="music">
+            <label for="music">Music</label>
+            
+        </div>
+    </fieldset>
+
+    <button>Enviar</button>
+</form>
+<br>
+
+<fieldset>
+    <legend>Bora tomar café?</legend>
+    <label for="sim">sim</label>
+    <input type="radio" id="sim"
+    name="coffee" value="sim" checked>
+
+    <label for="nao">não</label>
+    <input type="radio" id="nao" name="coffee" value="nao">
+</fieldset>
+<br>
+
+<label for="msg">Mensagem</label><br>
+    <textarea name="msg" 
+    id="msg" 
+    cols="10" 
+    rows="5"
+    maxlength=""
+    minlength=""
+    wrap="off"
+    autocomplete=""
+    autofocus
+    disabled
+    placeholder=""
+    readonly
+    form=""
+    required>
+
+</textarea>
+<br><br>
+
+<form action="">
+    <label for="q">Digite o ID</label>
+    <input type="search" name="id" id="q" size="5"
+    pattern="[0-9]{2}" 
+    title="Digite o ID: 99"
+    aria-label="Digite o ID">
+    <button>Search</button>
+</form>
+<br>
+
+<form action="">
+    <input type="number" min="2" max="10">
+
+    <button>Enviar</button>
+</form>
+<br>
+
+<input type="range" min="10" max="100" step="10">
